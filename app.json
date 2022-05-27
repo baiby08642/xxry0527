@@ -1,0 +1,30 @@
+{
+  "name": "xxry0527",
+  "description": "xxry0527",
+  "keywords": [
+    "xxry0527"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "VMess or VLESS，vmess or vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "UUID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/baiby08642/xxry0527",
+  "repository": "https://github.com/baiby08642/xxry0527",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
